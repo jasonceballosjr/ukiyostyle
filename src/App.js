@@ -1,16 +1,10 @@
 import React from 'react';
-import './App.css';
+import Products from './components/Products/Products';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-
-        <p>
-          React Base for Ukiyo Style
-        </p>
-
-      </header>
+    <div>
+      <Products />
     </div>
   );
 }
